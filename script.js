@@ -75,6 +75,12 @@ headerContainer.addEventListener('click', (event) => {
 
 
 
+// loader
+let loader = document.querySelector("#loader")
+setTimeout(() =>{
+    loader.style.top = "-100%"
+},4200)
+
 
 // Swiper js 
 
